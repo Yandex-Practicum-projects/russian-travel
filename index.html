@@ -13,8 +13,8 @@
     <header class="header">
         <img src="./images/header-logo.svg" alt="Логотип" class="header__logo">
         <div>
-            <a class="header__lang-link" href="#">Ru</a>
-            <a class="header__lang-link text-decoration-line-none" href="#">En</a>
+            <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+            <a class="header__lang-link" href="#">En</a>
         </div>
     </header>
     <main>
@@ -36,11 +36,11 @@
                 километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
             </p>
             <ul class="intro__list">
-                <li>Часовых поясов <u class="intro__list-allocate">11</u></li>
-                <li>Объектов природного наследия ЮНЕСКО <u class="intro__list-allocate">12</u></li>
-                <li>Объектов культурного наследия ЮНЕСКО <u class="intro__list-allocate">16</u></li>
-                <li>Природных заповедников <u class="intro__list-allocate">105</u></li>
-                <li>Аэропортов <u class="intro__list-allocate">241</u></li>
+                <li>Часовых поясов <span class="intro__list-allocate">11</span></li>
+                <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-allocate">12</span></li>
+                <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-allocate">16</span></li>
+                <li>Природных заповедников <span class="intro__list-allocate">105</span></li>
+                <li>Аэропортов <span class="intro__list-allocate">241</span></li>
             </ul>
         </section>
         <section class="photo-grid">
@@ -64,7 +64,7 @@
                 <li class="place">
                     <h2 class="place__title">Куршская коса</h2>
                     <div class="place__website">
-                        <p class="place__url-header">URL</p>
+                        <span class="place__url-header">url</span>
                         <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
                     </div>
                     <img src="./images/place-kosa.jpg" class="place__image" alt="коса">
@@ -85,7 +85,7 @@
                 <li class="place">
                     <h2 class="place__title">Кольский</h2>
                     <div class="place__website">
-                        <p class="place__url-header">URL</p>
+                        <span class="place__url-header">url</span>
                         <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
                     </div>
                     <img src="./images/place-kolsky.jpg" class="place__image" alt="кольский">
@@ -108,7 +108,7 @@
                 <li class="place">
                     <h2 class="place__title">Алтай</h2>
                     <div class="place__website">
-                        <p class="place__url-header">URL</p>
+                        <span class="place__url-header">url</span>
                         <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link">YouTube</a>
                     </div>
                     <img src="./images/place-altai.jpg" class="place__image" alt="алтай">
@@ -130,7 +130,7 @@
                 <li class="place">
                     <h2 class="place__title">Зимний Байкал</h2>
                     <div class="place__website">
-                        <p class="place__url-header">URL</p>
+                        <span class="place__url-header">url</span>
                         <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
                     </div>
                     <img src="./images/place-winter-baikal.jpg" class="place__image" alt="байкал">
@@ -143,15 +143,15 @@
                         <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований
                             по
                             скийорингу. Это такой вид спорта, когда лыжник привязывает себя
-                            к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019
+                            к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019
                             года на
-                            фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
+                            фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                     </div>
                 </li>
                 <li class="place">
                     <h2 class="place__title">Карелия</h2>
                     <div class="place__website">
-                        <p class="place__url-header">URL</p>
+                        <span class="place__url-header">url</span>
                         <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
                     </div>
                     <img src="./images/place-karelia.jpg" class="place__image" alt="карелия">
@@ -172,7 +172,7 @@
             </ul>
         </section>
         <section class="cover">
-            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__background text-decoration-line-none">
+            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__background">
                 <h2 class="cover__title">До Байкала «на собаках»</h2>
                 <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
                     электричках.</p>
@@ -183,19 +183,19 @@
         <nav>
             <ul class="footer__links">
                 <li>
-                    <a class="footer__link text-decoration-line-none" href="https://yandex.ru/maps">Карты</a>
+                    <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
                 </li>
                 <li>
-                    <a class="footer__link text-decoration-line-none" href="https://yandex.ru/pogoda">Погода</a>
+                    <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
                 </li>
                 <li>
-                    <a class="footer__link text-decoration-line-none" href="https://rasp.yandex.ru">Расписание</a>
+                    <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
                 </li>
                 <li>
-                    <a class="footer__link text-decoration-line-none" href="https://calendar.yandex.ru">Календарь</a>
+                    <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
                 </li>
                 <li>
-                    <a class="footer__link text-decoration-line-none" href="https://travel.yandex.ru">Путешествия</a>
+                    <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
                 </li>
             </ul>
         </nav>

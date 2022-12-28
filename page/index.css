@@ -6,8 +6,7 @@
 @import url(../bloks/header/header.css);
 @import url(../bloks/header/__logo/header__logo.css);
 @import url(../bloks/header/__lang-link/header__lang-link.css);
-
-@import url(../bloks/text-decoration-line-none/text-decoration-line-none.css);
+@import url(../bloks/header/__lang-link/_active/header__lang-link_active.css);
 
 @import url(../bloks/lead/lead.css);
 @import url(../bloks/lead/__caption/lead__caption.css);
@@ -16,7 +15,7 @@
 @import url(../bloks/lead/__title/lead__title.css);
  
 @import url(../bloks/intro/intro.css);
-@import url(../bloks/intro/__list/intro__list-allocate.css.css);
+@import url(../bloks/intro/__list-allocate/intro__list-allocate.css.css);
 @import url(../bloks/intro/__list/intro__list.css);
 @import url(../bloks/intro/__text/intro__text.css);
 @import url(../bloks/intro/__title/intro__title.css);

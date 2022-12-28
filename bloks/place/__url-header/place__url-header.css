@@ -8,4 +8,8 @@
     color: #AAAAAA;
     margin: 0;
     margin-bottom: 12px;
+    text-transform:uppercase;
+}
+.place__url-header:hover{
+    opacity: 0.8;
 }
