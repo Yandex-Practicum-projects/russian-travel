@@ -2,3 +2,8 @@
     width: 100%;
     grid-column: 1;
 }
+@media screen and (max-width: 750px) {
+    .place__image{
+        margin-bottom: 32px;
+    }
+}

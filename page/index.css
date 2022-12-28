@@ -1,7 +1,10 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
 
 @import url(../bloks/body/body.css);
 
 @import url(../bloks/header/header.css);
+@import url(../bloks/header/__logo/header__logo.css);
 @import url(../bloks/header/__lang-link/header__lang-link.css);
 
 @import url(../bloks/text-decoration-line-none/text-decoration-line-none.css);
