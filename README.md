@@ -24,7 +24,7 @@ The website has been built using the BEM methodology, which stands for Block, El
 ## Usage
 
 The web page is available for viewing in any web browser.
-[Link to the **GitHub Pages**](https://bababum95.github.io/russian-travel/) 
+[Link to the **GitHub Pages**](https://yandex-practicum-projects.github.io/russian-travel/) 
 
 ## Credits
 
